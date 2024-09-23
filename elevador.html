@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevador</title>
+    <link rel="stylesheet" href="elevador.css">
+</head>
+<body>
+    <div class="container">
+        <div class="botoes">
+            <button class="botao" onclick="move(3)">3</button>
+            <button class="botao" onclick="move(2)">2</button>
+            <button class="botao" onclick="move(1)">1</button>
+        </div>
+
+        <div class="predio">
+            <div class="andares" id="andar3"></div>
+            <div class="andares" id="andar2"></div>
+            <div class="andares" id="andar1"></div>
+            <div id="elevador"></div>
+        </div>
+    </div>
+
+    <script src="elevador.js"></script>
+</body>
+</html>
